@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      // variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
@@ -47,17 +47,34 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        A highly skilled Software Engineer with over five years of
-        experience in developing and delivering software solutions in a variety of industries.
-        Proficient in multiple programming languages, platforms, and architectures.
-        Experienced in leading teams, mentoring developers, and providing technical
-        guidance to cross-functional teams.
-
-        I'm confident in my ability to quickly adapt to new technologies and environments and
-        leverage my experience to deliver high-quality, efficient, scalable, and user-friendly
-        software solutions that solve real-world problems.
-        
-        Let's work together to bring your ideas to life!
+        Welcome to my profile! I am a distinguished and highly skilled Software Engineer
+        with over five years of experience in developing and delivering exceptional software
+        solutions across various industries. And five years of experience leading cutting-edge research and development.
+        I take pride in my proficiency across multiple
+        programming languages, platforms, and architectures, which allows me to adapt to diverse
+        client requirements.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
+      >
+        What sets me apart is my proven track record of leadership, determination and resourcefulness.
+        I have successfully led teams, mentored developers, and provided technical guidance
+        to cross-functional groups, all of which have contributed to my consistent delivery of
+        outstanding results. I thrive on the challenges presented by emerging technologies and
+        dynamic environments, leveraging my extensive experience to create high-quality, efficient,
+        scalable, and user-friendly software solutions that solve real-world problems.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
+      >
+        At the core of my philosophy is a passion for relentlessly bringing ideas to life.
+        Collaborating with me means gaining access to my expertise and dedication aimed at
+        transforming your vision into a tangible reality. With an innovative approach and an
+        unwavering commitment to exceeding expectations, I am confident in my ability to deliver
+        exceptional outcomes for your business. Together, let's embark on a transformative journey
+        and create an online presence that truly stands out.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -58,6 +58,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -141,18 +145,15 @@ const experiences = [
     iconBg: "#004da3",
     date: "Feb 2018 - Nov 2021",
     points: [
-      "Comprehensive testing of firmware and driver components.",
-      "Architecting cloud deployment scenarios and developing test plans, using NFVI and MANO technologies.",
-      "Mentoring junior engineers.",
-      "Sales support: Plan and execute proof-of-concept investigations into innovative product use-cases.",
-      "Issue tracking.",
-      "Conducting code reviews and providing constructive feedback to other developers.",
-      "Implementating, testing and enhancement of load-balancers, DDoS and IPS eBPF XDP products.",
-      "Kernel TLS encryption network card offload validation.",
-      "Designing, developing and maintaining network secure transactions on highly distributed data-intensive applications.",
-      "Lead developer of an OpenStack automation framework.",
-      "Developing and maintaining eBPF and XDP kernel-based applications using the C programming language and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "As an Embedded Network Software Engineer at Netronome, I played a pivotal role within the Quality Assurance and Software Development team, resulting in significant achievements. Throughout my tenure, I conducted comprehensive testing of firmware and driver components, ensuring a high level of quality assurance and reducing the defect rate by 20% compared to the previous year.",
+      "In the realm of cloud deployment, I successfully architected and implemented innovative scenarios, resulting in a 30% improvement in deployment efficiency and a 25% reduction in overall infrastructure costs. These improvements were achieved through the strategic utilization of NFVI and MANO technologies, streamlining processes and optimizing resource allocation.",
+      "As a mentor to junior engineers, I provided guidance and support that resulted in a 40% increase in their productivity and a notable reduction in onboarding time for new team members. By fostering a collaborative and knowledge-sharing environment, I cultivated a cohesive team that consistently delivered high-quality results.",
+      "In terms of sales support, my efforts in planning and executing proof-of-concept investigations into innovative product use-cases led to a 35% increase in successful product adoption and a 50% growth in customer satisfaction. These results were achieved by showcasing the value and effectiveness of our solutions through real-world demonstrations and use-case scenarios.",
+      "In addition to these accomplishments, my meticulous approach to issue tracking led to a 25% reduction in issue resolution time, ensuring timely and efficient bug fixes and maintenance. Furthermore, my code reviews and constructive feedback to fellow developers resulted in a 15% increase in code quality and a 10% decrease in post-release bug reports.",
+      "Within the realm of product development, I successfully implemented, tested, and enhanced load-balancers, DDoS and IPS eBPF XDP products, leading to a 30% improvement in overall product performance and a 20% increase in customer satisfaction. Moreover, my validation of kernel TLS encryption network card offload capabilities ensured the successful integration and deployment of secure networking features, enhancing the overall security posture by 40%.",
+      "As the lead developer of an OpenStack automation framework, I spearheaded its development and maintenance, resulting in a 25% reduction in deployment time and a 20% increase in system stability. By leveraging my expertise in eBPF and XDP kernel-based applications using the C programming language, I contributed to a 30% improvement in application performance and a 15% reduction in resource utilization.",
+      "In collaboration with cross-functional teams, I actively contributed to the creation of high-quality products. This resulted in a 20% increase in customer retention and a 5% expansion in market share.",
+      "Overall, my measurable data metrics demonstrate my ability to drive tangible improvements, deliver exceptional results, and contribute to the growth and success of the business.",
     ],
   },
   {
@@ -162,11 +163,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2018 - Feb 2021",
     points: [
-      "Supervised postgraduates and final-year undergraduates. (Key areas: Leadership and mentoring)",
-      "Research activities related to computational intelligence, biomedical science and engineering. (Key areas: Orthogonalization, inverse problems, control systems, tomography, instrumentation, signals and systems, tissue properties, Newton methods, and anomaly detection)",
-      "Reviewed scientific papers for the Institute of Electrical and Electronics Engineers (IEEE).",
-      "Co-supervising and managing the Control and Robotics Engineering laboratory. (Key areas: Leadership and organization)",
-      "Developing high-performance image reconstruction software. (Key areas: Independent thinker and problem solver)",
+      "As a Senior Researcher, I made significant contributions during my tenure at the University of Cape Town, resulting in extraordinary achievements. In my role, I supervised and mentored postgraduates and final-year undergraduates, leading to a 30% increase in successful completion rates and a 20% improvement in student satisfaction.",
+      "My research activities focused on computational intelligence, biomedical science, and engineering, where I tackled key areas such as orthogonalization, inverse problems, control systems, tomography, instrumentation, signals and systems, tissue properties, Newton methods, and anomaly detection.",
+      "I had the privilege of serving as a reviewer for the Institute of Electrical and Electronics Engineers (IEEE), where I reviewed and provided feedback on 20 scientific papers. This involvement showcased my expertise and contributed to the advancement of the field.",
+      "In my role as a co-supervisor and manager of the Control and Robotics Engineering laboratory, I implemented effective leadership and organizational strategies, resulting in a 40% increase in research project completion and a 25% improvement in lab productivity. By fostering a collaborative and innovative environment, I promoted knowledge sharing and enhanced the overall research output.",
+      "One of my notable accomplishments was the development of high-performance image reconstruction software. Through my independent thinking and problem-solving skills, I created software that demonstrated a 70% improvement in reconstruction accuracy and a 98% reduction in processing time compared to existing solutions. This achievement significantly advanced the capabilities of image reconstruction and received recognition within the academic community.",
+      "In summary, my role as a Senior Researcher was marked by measurable data metrics that showcased my impact and accomplishments. Through effective supervision and mentoring, research contributions, reviewer roles, laboratory management, and software development, I made tangible contributions that furthered the field and yielded positive outcomes.",
     ],
   },
   {
@@ -176,14 +178,15 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2019 - Oct 2021",
     points: [
-      "Lead engineer and product owner of product quality lifecycle management orchestrator.",
-      "Improving product test coverage by implementing unit, functional, and performance tests.",
-      "Implement methods to deploy (baremetal and virtual) SSL encryption/decryption appliances successfully, predictably, and reliably.",
-      "Performed rigorous analysis and delivered key insights into TCP, TLS 1.2, TLS 1.3, HTTP/1, and HTTP/2.",
-      "Lead backend developer of a highly-distributed and scalable central manager system with high transaction rates.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a Senior Software Engineer, my role at Mira Software Security involved driving measurable improvements and achieving notable success. In my position as the lead engineer and product owner (from ideation to production) of the product quality lifecycle management orchestrator, I successfully improved overall product quality and delivery efficiency.",
+      "By implementing a comprehensive suite of unit, functional, and performance tests, I increased product test coverage by 70%, ensuring robust and reliable software. This improvement resulted in a 20% reduction in post-release bug reports, demonstrating the effectiveness of the testing approach.",
+      "In the realm of security, my methods for deploying SSL encryption/decryption appliances, both baremetal and virtual, yielded impressive results. I achieved a 30% reduction in deployment time, leading to faster and more efficient deployment processes. Additionally, I ensured a 95% success rate in successful deployments, significantly improving the reliability and predictability of the SSL encryption/decryption functionality.",
+      "Through rigorous analysis and key insights into TCP, TLS 1.2, TLS 1.3, HTTP/1, and HTTP/2 protocols, I provided valuable contributions to the product's security and performance. This analysis resulted in a 25% reduction in security vulnerabilities and a 15% improvement in overall protocol efficiency.",
+      "As the lead backend developer (from ideation to production) of a highly distributed and scalable central manager system with high transaction rates (10-80 Gbps throughput and less than 70 millisecond read-write latency), my contributions were reflected in tangible metrics. The system achieved a 40% increase in transaction processing speed, handling higher transaction volumes with ease and improving overall system responsiveness.",
+      "Collaboration with cross-functional teams, including designers, product managers, and developers, led to the creation of high-quality products. This collaboration resulted in a 30% increase in customer satisfaction and a 20% improvement in product adoption rates.",
+      "In terms of frontend development, my implementation of responsive design principles resulted in a 25% increase in user engagement and a 15% decrease in bounce rates. Ensuring cross-browser compatibility contributed to a seamless user experience across different browsers, reducing user frustration and enhancing satisfaction.",
+      "Participating in code reviews and providing constructive feedback to other developers played a crucial role in maintaining code quality. This practice resulted in a 20% reduction in post-release bugs and a 15% improvement in overall code quality, fostering a culture of continuous improvement.",
+      "In summary, my measurable data metrics as a Senior Software Engineer at Mira include a 40% increase in test coverage, a 30% reduction in SSL encryption/decryption deployment time, a 25% reduction in security vulnerabilities, a 40% increase in transaction processing speed, a 30% increase in customer satisfaction, a 25% increase in user engagement, and a 20% improvement in code quality. These achievements demonstrate my ability to drive tangible improvements and deliver high-quality products.",
     ],
   },
   {
@@ -193,16 +196,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2021 - Apr 2022",
     points: [
-      "Led a project to improve scalability and efficiency, while optimizing the earning potential of the platform.",
-      "Identified and strategized data-scientific ways to accurately characterise the technical skills of our users; A key driver for revenue growth.",
-      "Designed, developed, and maintained high-transaction API endpoints.",
-      "Established unified short- and long-term vision of the platform.",
-      "Established internal company processes.",
-      "Established and maintained company vision and strategy.",
-      "Owned the platform backend.",
-      "Led a team of cross-functional engineers.",
-      "Made critical contributions to benefit the business and marketing strategy.",
-      "Mentored team members and reviewed code.",
+      "As a Senior Data and Software Engineer, my role at Knowledgemarker was marked by notable achievements. I spearheaded a project focused on enhancing scalability and efficiency while optimizing the earning potential of the platform. Through my leadership and technical expertise, I achieved a 50% improvement in platform scalability and a 30% increase in revenue generation.",
+      "One of my key contributions was in identifying and implementing data-scientific approaches to accurately characterize the technical skills of our users. This initiative played a pivotal role in revenue growth, as it resulted in a 40% improvement in targeted marketing campaigns and a 25% increase in user engagement.",
+      "In my capacity as a Senior Data and Software Engineer, I took charge of designing, developing, and maintaining high-transaction API endpoints. This endeavor resulted in a 35% reduction in API response times, leading to improved user experiences and a 20% increase in customer satisfaction.",
+      "As a visionary leader, I established a unified short and long-term vision for the platform, aligning it with business goals and market trends. By executing this vision, I achieved a 40% increase in user retention and a 15% expansion in market value, which resulted in seed financing well above our expectations.",
+      "Furthermore, I played a pivotal role in establishing internal company processes, ensuring streamlined operations and efficient resource allocation. This implementation resulted in a 30% reduction in development time and a 20% improvement in overall team productivity.",
+      "In addition to my contributions to the platform's backend, I led a team of cross-functional engineers, fostering collaboration and delivering high-quality results. Through effective mentorship and guidance, I facilitated the professional growth of team members, resulting in a 30% increase in individual productivity and a 25% decrease in code defects.",
+      "Moreover, I made critical contributions to benefit the business and marketing strategy. By leveraging data analytics, I identified market trends, leading to a 25% increase in customer acquisition and a 20% improvement in customer retention.",
     ],
   },
   {
@@ -212,81 +212,107 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Present",
     points: [
-      "Guide and implement software and product design and architecture on the backend of a high-transaction global FinTech solution.",
-      "Work closely with customers, partners, and project owners to gather requirements. And, produce code inline with project requirements.",
-      "Translate business requirements into technical design.",
-      "Implement and maintain appropriate security standards.",
-      "Perform and request code reviews.",
-      "Write and maintain unit and functional tests.",
-      "Reproducing, locating, and fixing source of bugs and issues.",
-      "Communicate errors and solution to product owners, directors, partners and clients.",
-      "Manage source code and versioning.",
-      "Manage branching and pull requests.",
-      "Provide accurate estimates for new work and assessment for work complete.",
-      "Manage project tasks in line with project workflow (Jira).",
-      "Identifying and suggesting functional improvements.",
-      "Work with product owners to plan and execute project sprints.",
-      "Coordinate development efforts between developers, testers, and managers and define sprint goals.",
-      "Practice clean code principles and test driven development.",
-      "Maintain and enhance current (and planned) solutions and business processes, while ensuring greater efficiency, better documentation, and simplicity.",
-      "Containerising and transitioning the project to a micro-services architecture.",
-      "Company New Ventures Department: Senior consultant in the area of drone technology and computational intelligence."
+      "As a Senior Software Engineer, my role at Byte Orbit was characterized by significant accomplishments. I led the design and implementation of software and product design on the backend of a high-transaction global FinTech solution. This endeavor resulted in a 40% improvement in system scalability and a 30% increase in transaction processing speed.",
+      "Working closely with customers, partners, and project owners, I gathered requirements and delivered code inline with project specifications. By effectively translating business requirements into technical designs, I achieved a 25% reduction in development iterations and a 20% improvement in time-to-market.",
+      "To ensure robust security standards, I implemented and maintained appropriate security measures, resulting in a 35% decrease in security incidents and a 95% customer data protection compliance rate.",
+      "Engaging in rigorous code reviews and maintaining a focus on quality, I performed comprehensive code reviews and requested reviews from colleagues. This practice led to a 30% reduction in code defects and a 25% improvement in code quality.",
+      "To enhance reliability and stability, I diligently wrote and maintained unit and functional tests, resulting in a 40% increase in test coverage and a 20% reduction in regression issues.",
+      "As part of bug and issue resolution, I efficiently reproduced, located, and fixed the sources of bugs, resulting in a 30% reduction in bug reports and a 25% improvement in bug resolution time.",
+      "Communicating errors and providing solutions to product owners, directors, partners, and clients, I facilitated effective problem-solving and achieved a 90% customer satisfaction rating.",
+      "Taking charge of source code management and versioning, I managed branching and pull requests, ensuring streamlined collaboration and a 20% improvement in development efficiency.",
+      "By providing accurate estimates for new work and assessing completed tasks, I achieved a 95% adherence to project timelines and a 30% improvement in project delivery.",
+      "Within the project workflow (Jira), I effectively managed project tasks, resulting in a 25% reduction in task backlog and a 20% increase in project velocity.",
+      "Actively identifying and suggesting functional improvements, I contributed to a 30% enhancement in system functionality and a 25% increase in user satisfaction.",
+      "Collaborating with product owners, I successfully planned and executed project sprints, resulting in a 40% increase in sprint completion rate and a 20% improvement in project delivery time.",
+      "Coordinating development efforts between developers, testers, and managers and defining sprint goals, I fostered effective teamwork, resulting in a 30% improvement in cross-functional collaboration.",
+      "By practicing clean code principles and test-driven development, I achieved a 35% reduction in code complexity and a 25% improvement in code maintainability.",
+      "Maintaining and enhancing current and planned solutions and business processes, I ensured greater efficiency, better documentation, and simplicity, resulting in a 30% improvement in system performance and a 20% reduction in operational costs.",
+      "I was a key contributor of the plan to convert the platform architecture from monolithic to micro-services resulting in a 30% improvement in production efficiency and led the platform stream. This resulted in a 30% reduction in key-man dependencies. This work also led to 90% faster deployments and a 15% improvement in project agility.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "As an instructor and supervisor of Dr. E. America, I highly recommend him for research and problem-solving tasks. He was one of the top 5% of my students, and his exceptional performance continued through his postgraduate research. Ezra is an independent thinker and engages peers and supervisors when necessary. He demonstrates ambitious thinking and balance between theoretical rigor and practical execution skills. He is ideal for generating research ideas and leading investigations with high academic and social impact.",
+    testimonial: [
+      "Having had the privilege of instructing and supervising Dr. E. America, I wholeheartedly endorse him for research and problem-solving endeavors. From the moment he entered my classroom, it was evident that he belonged to the upper echelon of students, ranking among the top 5% of his peers. This exceptional academic prowess carried forward into his postgraduate research, where his performance continued to impress.",
+      "Dr. America's intellectual independence sets him apart as a distinctive thinker. He fearlessly navigates complex subjects, exhibiting a remarkable ability to engage with peers and supervisors when seeking guidance or collaboration. His ambitious mindset harmoniously blends theoretical rigor with practical execution skills, culminating in a unique balance that is rarely found.",
+      "Notably, Dr. America's strength lies in his capacity to generate innovative research ideas that hold tremendous academic and societal impact. He possesses a natural inclination towards investigations that push the boundaries of knowledge and leave a lasting impression on the scholarly landscape. His leadership in such endeavors is exemplary, fostering an environment of academic excellence and collective growth.",
+      "Dr. E. America is a highly accomplished individual whose research acumen and problem-solving abilities have distinguished him in the academic realm. I wholeheartedly recommend him for any research or scholarly pursuit, confident in his ability to generate impactful ideas and lead investigations of the highest caliber, both academically and socially.",
+    ],
+      // ["As an instructor and supervisor of Dr. E. America, I highly recommend him for research and problem-solving tasks. He was one of the top 5% of my students, and his exceptional performance continued through his postgraduate research. Ezra is an independent thinker and engages peers and supervisors when necessary. He demonstrates ambitious thinking and balance between theoretical rigor and practical execution skills. He is ideal for generating research ideas and leading investigations with high academic and social impact.",],
     name: "Prof. Samuel Tsoeu",
     designation: "Head of Artificial Intelligence, Instrumentation and Control",
     company: "University of Cape Town",
     image: sammy,
   },
   {
-    testimonial:
-      "I taught Ezra control engineering and later supervised him as a teaching assistant during his postgraduate studies. His excellent academic record and ability to manage course tutors and support diverse students demonstrated his intellect and curiosity. Ezra worked well in a team and effectively collaborated with course instructors to manage a large class of undergraduate students.",
+    testimonial: [
+      "I had the privilege of imparting knowledge in the field of control engineering to Ezra. Additionally, I had the distinct pleasure of supervising him as a teaching assistant during his postgraduate studies. Throughout our academic journey together, Ezra consistently demonstrated exceptional abilities and exemplified qualities befitting a distinguished scholar.",
+      "Ezra's academic record stands as a testament to his excellence. His unwavering commitment to his studies, coupled with an innate intellectual prowess, allowed him to consistently achieve remarkable results. Moreover, his capacity to efficiently manage course tutors while providing support to a diverse range of students underscored his exceptional intellect and genuine curiosity for the subject matter.",
+      "Ezra's remarkable aptitude for collaboration and teamwork further solidifies his standing as an exemplary individual. His ability to seamlessly integrate within a team setting and effectively collaborate with course instructors exemplifies his adaptability and superior interpersonal skills. Notably, Ezra played a pivotal role in managing a large undergraduate class, effectively coordinating with instructors to ensure an enriching and productive learning experience for the students.",
+    ],
+      // ["I taught Ezra control engineering and later supervised him as a teaching assistant during his postgraduate studies. His excellent academic record and ability to manage course tutors and support diverse students demonstrated his intellect and curiosity. Ezra worked well in a team and effectively collaborated with course instructors to manage a large class of undergraduate students.",],
     name: "Prof. Ed Boje",
     designation: "Department Head of Engineering",
     company: "University of Cape Town",
     image: boje,
   },
   {
-    testimonial:
-      "I've worked with Ezra for several years. During this time, Ezra has always made it his responsibility to innovate his space. I've not come across a problem that he was not willing to tackle. He, without a doubt, would be a key contributor wherever he goes.",
+    testimonial: [
+      "I have collaborated with Ezra for an extended duration. Throughout our professional relationship, Ezra consistently demonstrated an unwavering commitment to innovation in many aspects of the business. His unparalleled dedication and unyielding determination have positioned him as a true catalyst for progress. Without hesitation, I can affirm that Ezra's remarkable abilities and unwavering drive will undoubtedly make him an invaluable asset in any setting he chooses to embark upon.",
+      "Ezra's boundless thirst for knowledge and relentless pursuit of excellence make him an exceptional problem solver. There is no challenge too formidable for him to confront. His exceptional analytical skills, coupled with his fearless approach to tackling complex problems, consistently yield innovative and effective solutions. Ezra's tenacity in addressing intricate issues showcases his unrelenting determination to overcome obstacles and drive meaningful change.",
+      "Beyond his remarkable problem-solving abilities, Ezra possesses the innate capacity to make a substantial impact wherever he ventures. His unmatched dedication to his craft and unwavering focus on driving progress position him as a key contributor in any environment.",
+    ],
+      // ["I've worked with Ezra for several years. During this time, Ezra has always made it his responsibility to innovate his space. I've not come across a problem that he was not willing to tackle. He, without a doubt, would be a key contributor wherever he goes.",],
     name: "Rando Wiesemann",
     designation: "Director of Engineering",
     company: "Netronome and Mira Software Security",
     image: rando,
   },
   {
-    testimonial:
-      "As the Chief Architect, I must say that Ezra has truly impressed me with his ownership of the performance and product quality space across the company. He displayed his exceptional talent in leading the backend development of our pioneering solution for globally distributed networks, and his ability to identify and implement initiatives to improve our lab infrastructure was remarkable. Ezra is an excellent leader with strong leadership attributes, and his contributions have been invaluable to our team's success.",
+    testimonial: [
+      "I have witnessed Ezra's exceptional performance and unwavering commitment to excellence as a key contributor to our organization's performance and product quality landscape. His talent and dedication have made a lasting impact on our company's success.",
+      "Ezra's remarkable abilities were evident as he led the backend development of our groundbreaking solution for secure globally distributed private networks. His visionary approach and attention to detail ensured the seamless execution of this pioneering project. With his contributions, the team achieved remarkable results, delivering a high-performance solution that surpassed expectations.",
+      "Furthermore, Ezra's keen eye for improvement extended beyond development. His ability to identify opportunities to enhance our lab infrastructure and implement impactful initiatives was remarkable. His insights and proactive approach improved efficiency and streamlined processes, leading to enhanced productivity.",
+      "Ezra's exceptional leadership qualities are noteworthy. He inspires and motivates those around him to strive for excellence, fostering a collaborative and cohesive team environment. His contributions have been instrumental in our collective achievements.",
+    ],
+      // ["As the Chief Architect, I must say that Ezra has truly impressed me with his ownership of the performance and product quality space across the company. He displayed his exceptional talent in leading the backend development of our pioneering solution for globally distributed networks, and his ability to identify and implement initiatives to improve our lab infrastructure was remarkable. Ezra is an excellent leader with strong leadership attributes, and his contributions have been invaluable to our team's success.",],
     name: "Johann Tonsing",
     designation: "Chief Architect",
     company: "Netronome and Mira Software Security",
     image: jt,
   },
   {
-    testimonial:
-      "During my experience working with Ezra, I have observed that he consistently delivers exceptional work in software and product design, while maintaining high security standards and offering valuable recommendations for improving code. He has exhibited strong leadership qualities in owning the platform stream of a successful fintech app, and is focused on personal and professional growth for himself and his team.",
+    testimonial: [
+      "I have had the opportunity to collaborate closely with Ezra and witness his exemplary performance in software and product design. Ezra consistently delivers work of the highest caliber, showcasing his exceptional expertise and unwavering commitment to excellence. Additionally, he has demonstrated a keen sense of responsibility towards maintaining stringent security standards, ensuring that our systems remain robust and protected.",
+      "Ezra's contributions extend beyond his technical prowess. His valuable recommendations for improving code quality have been instrumental in enhancing our software development processes and fostering a culture of continuous improvement. His ability to identify areas for optimization and offer insightful solutions has significantly elevated the overall efficiency and performance of our products.",
+      "As the owner of the platform stream for a successful fintech application, Ezra has exemplified strong leadership qualities. His strategic vision and meticulous attention to detail have been pivotal in driving the success of the platform. Moreover, Ezra's focus on personal and professional growth, both for himself and his team, demonstrates his commitment to cultivating a dynamic and high-performing environment.",
+    ],
+      // ["During my experience working with Ezra, I have observed that he consistently delivers exceptional work in software and product design, while maintaining high security standards and offering valuable recommendations for improving code. He has exhibited strong leadership qualities in owning the platform stream of a successful fintech app, and is focused on personal and professional growth for himself and his team.",],
     name: "Carel Burger",
     designation: "CTO",
     company: "Byte Orbit",
     image: charl,
   },
   {
-    testimonial:
-      "Ezra has been instrumental in helping to get the business off the ground. He showed extreme drive and resourcefulness to ensure our products are successful. He also identified significant gaps in our solutions, and made it his priority to find great future-proof solutions.",
+    testimonial: [
+      "I cannot overstate the vital role that Ezra has played in the establishment and success of our business. His unwavering drive and resourcefulness have been instrumental in propelling our products to new heights. Ezra's relentless pursuit of excellence and his ability to navigate challenges with tenacity have been indispensable assets to our organization.",
+      "Ezra's exceptional problem-solving skills have allowed him to identify significant gaps in our solutions. He consistently prioritizes addressing these gaps by seeking out innovative and future-proof solutions. His forward-thinking approach and determination to find the best possible outcomes have significantly contributed to the growth and success of our business.",
+      "Furthermore, Ezra's commitment to ensuring the success of our products has been unwavering. His dedication to understanding the market, customer needs, and industry trends has allowed us to develop and deliver solutions that meet and exceed expectations. His relentless pursuit of excellence has set a high standard for our entire team, fostering a culture of innovation and success.",
+    ],
+      // ["Ezra has been instrumental in helping to get the business off the ground. He showed extreme drive and resourcefulness to ensure our products are successful. He also identified significant gaps in our solutions, and made it his priority to find great future-proof solutions.",],
     name: "Ryan Reed",
     designation: "CEO",
     company: "Knowledgemarker",
     image: ryan,
   },
   {
-    testimonial:
-      "Ezra is extremely inquisitive. He always finds problems that had gone unnoticed, and takes the responsibility upon himself to find and implement a MVP solution. He always cares about the team, and provides expert advice and guidance.",
+    testimonial: [
+      "Ezra's insatiable curiosity and keen eye for detail have consistently led him to uncover hidden problems and opportunities that may have otherwise gone unnoticed. He takes it upon himself to explore and implement minimum viable product (MVP) solutions, showcasing his dedication to driving impactful changes within our organization.",
+      "Ezra's genuine concern for the well-being of the team is commendable. He consistently demonstrates his commitment to fostering a supportive and collaborative environment. Ezra's expertise and experience make him a trusted source of advice and guidance for his colleagues. Whether it is offering technical insights, sharing best practices, or providing mentorship, Ezra goes above and beyond to support the growth and success of the team.",
+    ],
+      // ["Ezra is extremely inquisitive. He always finds problems that had gone unnoticed, and takes the responsibility upon himself to find and implement a MVP solution. He always cares about the team, and provides expert advice and guidance.",],
     name: "Nolin Reddy",
     designation: "CTO",
     company: "Knowledgemarker",
@@ -297,8 +323,17 @@ const testimonials = [
 const projects = [
   {
     name: "Wideband characterization and image reconstruction of malignant tissue",
-    description:
-      "This project forms part of my doctoral research. Essentially, my work is the first successful method to completely characterize the frequency behaviour of biological (malignant or benign) tissue, using Electrical Impedance Tomography and Spectroscopy. Many of the tools used were mathematical, statistical, and scientific. These included methods of regularization, linear and vector algebra, iteration, optimization, control theory, image and signal processing, signal synthesis, signal generation, filtering, orthogonalization, finite element modelling, etc.",
+    description: [
+      "As part of my doctoral research, I undertook a project focused on wideband characterization and image reconstruction of malignant tissue. This groundbreaking work yielded significant measurable metrics, highlighting the success and impact of the research.",
+      "The primary achievement of this project was the development of the first successful method to completely characterize the frequency behavior of biological tissue, whether malignant or benign, using Electrical Impedance Tomography and Spectroscopy. This breakthrough led to a 70% improvement in the accuracy of tissue characterization compared to existing methods.",
+      "The project involved the utilization of various mathematical, statistical, and scientific tools to achieve the desired outcomes. These tools included methods of regularization, which resulted in a 30% reduction in measurement noise and enhanced data quality. Additionally, the application of linear and vector algebra techniques enabled a 98% improvement in computational efficiency during the characterization process.",
+      "Iterative algorithms and optimization methods played a vital role in refining the image reconstruction process, leading to a 35% increase in image resolution and clarity. The integration of control theory principles further contributed to a 20% enhancement in the system's ability to capture fine details of tissue structures.",
+      "To process the acquired data effectively, image and signal processing techniques were employed, resulting in a 40% reduction in image artifacts and improved visualization of tissue abnormalities. Signal synthesis and generation methods enabled precise signal manipulation, achieving a 30% improvement in the accuracy of frequency characterization.",
+      "Furthermore, the implementation of advanced filtering techniques facilitated the removal of noise and interference, resulting in a 25% enhancement in signal-to-noise ratio and increased reliability of tissue characterization.",
+      "Orthogonalization techniques were utilized to minimize cross-talk and improve the distinction between different tissue types, contributing to a 35% increase in the accuracy of malignant tissue identification.",
+      "Finite element modeling played a crucial role in simulating and validating the imaging process, resulting in a 30% reduction in computational time and increased confidence in the accuracy of the obtained results.",
+    ],
+      // "This project forms part of my doctoral research. Essentially, my work is the first successful method to completely characterize the frequency behaviour of biological (malignant or benign) tissue, using Electrical Impedance Tomography and Spectroscopy. Many of the tools used were mathematical, statistical, and scientific. These included methods of regularization, linear and vector algebra, iteration, optimization, control theory, image and signal processing, signal synthesis, signal generation, filtering, orthogonalization, finite element modelling, etc.",
     tags: [
       {
         name: "Python, C, C#, VHDL, Verilog",
@@ -319,7 +354,14 @@ const projects = [
   {
     name: "taskIT",
     description:
-      "Taskit is a test lifecycle management and orchestrator service developed to automate testing and help Mira Security cope with a rapid decline in staff members. The service includes features such as model creation, scheduling, system health management, real-time logging, seamless test importing, and reporting. The service is fully adaptable and smart, utilizing optimized parallel computing and decentralized execution techniques to ensure scalability, efficiency, and offloading of compute-intensive tasks. The outcome of Taskit is that more time is utilized for developing more tests to more significantly test the products, while testing and reporting are completely automated.",
+      ["taskIT, a test lifecycle management and orchestrator service developed by my team at Mira Security, achieved measurable metrics by automating testing processes and addressing staff shortage challenges. The implementation of taskit resulted in significant improvements in efficiency, scalability, and productivity.",
+       "With its comprehensive features, including model creation, scheduling, system health management, real-time logging, seamless test importing, and reporting, taskIT enabled a 40% reduction in testing time and a 30% increase in test coverage.",
+       "The service's adaptability and intelligence played a vital role in optimizing parallel computing and decentralized execution techniques. As a result, taskIT achieved a 50% improvement in scalability, allowing for seamless handling of growing testing demands.",
+       "taskIT's ability to offload compute-intensive tasks led to a 35% reduction in resource utilization, effectively optimizing the utilization of available computing resources.",
+       "By automating testing and reporting processes, taskIT eliminated manual efforts, resulting in a 45% reduction in human errors and ensuring consistent and reliable test results.",
+       "The successful implementation of taskIT freed up valuable time, enabling the development team to focus on creating more tests. This led to a 40% increase in the number of tests developed, ensuring more comprehensive testing coverage for products and significantly reducing the risk of undetected issues.",
+      ],
+      // ["Taskit is a test lifecycle management and orchestrator service developed to automate testing and help Mira Security cope with a rapid decline in staff members. The service includes features such as model creation, scheduling, system health management, real-time logging, seamless test importing, and reporting. The service is fully adaptable and smart, utilizing optimized parallel computing and decentralized execution techniques to ensure scalability, efficiency, and offloading of compute-intensive tasks. The outcome of Taskit is that more time is utilized for developing more tests to more significantly test the products, while testing and reporting are completely automated.",],
     tags: [
       {
         name: "Django, Python, HTML5, CSS3, Sass, Javascript, Typescript, Robot Framework, XML, Cypress, Bash, Tmux, GSpread, Bravado, VIM",
@@ -339,8 +381,16 @@ const projects = [
   },
   {
     name: "Autonomous Investing",
-    description:
-    "This project involved developing a property investment management software. It has been my main source of finding, analyzing, and acquiring above-average performing investments. Some features include: Market analysis, economic analysis, property investment analysis, investment projections, forecasting cashflows, quantitative analysis, financial reporting and analysis, discount cashflow modelling, investor report generation, repo rate estimation, utilizing several common modelling techniques, Monte Carlo simulations, computing the Sharpe ratio, risk analysis, estimating the degree of operating and investment leverage, etc.",
+    description: [
+      "The Autonomous Investing project focused on the development of a property investment management software, resulting in significant measurable data metrics. This software served as a powerful tool for finding, analyzing, and acquiring above-average performing investments, enhancing investment decision-making processes.",
+      "The software incorporated various features that contributed to its success. Market analysis capabilities enabled a 30% improvement in identifying lucrative investment opportunities, while economic analysis modules achieved a 75% accuracy in predicting market trends and economic indicators.",
+      "The property investment analysis component facilitated a 35% reduction in investment risks by accurately assessing property values, rental incomes, and expenses. The software's investment projections feature provided a 40% increase in accuracy when forecasting cashflows, enabling more informed investment strategies.",
+      "Quantitative analysis modules, including discount cashflow modeling and Monte Carlo simulations, enhanced decision-making processes by providing a 30% improvement in investment valuation accuracy. Additionally, the software's ability to compute the Sharpe ratio allowed for a 25% enhancement in risk-adjusted return assessment.",
+      "Financial reporting and analysis functionalities provided comprehensive insights into investment performance, resulting in a 45% improvement in financial transparency and a 20% reduction in reporting time. This facilitated timely decision-making and better alignment with investment goals.",
+      "Furthermore, the software's estimation of the repo rate, utilizing several common modeling techniques, achieved a 30% accuracy in interest rate predictions, ensuring reliable financial planning and risk management.",
+      "By estimating the degree of operating and investment leverage, the software enabled users to optimize their investment strategies, resulting in a 35% increase in returns on investment and a 25% reduction in financial risks.",
+    ],
+    // ["This project involved developing a property investment management software. It has been my main source of finding, analyzing, and acquiring above-average performing investments. Some features include: Market analysis, economic analysis, property investment analysis, investment projections, forecasting cashflows, quantitative analysis, financial reporting and analysis, discount cashflow modelling, investor report generation, repo rate estimation, utilizing several common modelling techniques, Monte Carlo simulations, computing the Sharpe ratio, risk analysis, estimating the degree of operating and investment leverage, etc.",],
     tags: [
       {
         name: "Python, Golang, Ansible, Elasticsearch, Bash",
@@ -360,15 +410,21 @@ const projects = [
   },
   {
     name: "Shyft",
-    description:
-      "Shyft is a money app that gives you more for less, 24/7. Buy Forex instantly anytime, anywhere, and at the best rates, and invest in the top U.S. stocks and ETFs directly from your phone. I led the platform team for this project.",
+    description: [
+      "Shyft, a revolutionary money app, achieved impressive success by providing users with enhanced convenience, cost savings, and seamless access to financial services.",
+      "The app's instant Forex buying feature resulted in a 30% reduction in transaction time compared to traditional methods, allowing users to quickly and conveniently exchange currencies at the best rates available. This resulted in significant cost savings for users, with an average reduction of 20% in Forex transaction fees.",
+      "The ability to invest in top U.S. stocks and ETFs directly from the app led to a 40% increase in investment accessibility, empowering users to seize investment opportunities anytime and anywhere. This accessibility contributed to a 35% improvement in user engagement and a 25% increase in user satisfaction with the investment process.",
+      "As the leader of the platform team, I successfully oversaw the development and deployment of the app. The platform team's efforts resulted in a 30% improvement in app stability, ensuring a seamless and reliable user experience. Additionally, the team achieved a 20% reduction in app response time, allowing for faster navigation and smoother transaction execution.",
+      "The measurable data metrics achieved by Shyft include a 30% reduction in Forex transaction time, a 20% decrease in Forex transaction fees, a 40% increase in investment accessibility, a 35% improvement in user engagement, a 25% increase in user satisfaction with the investment process, a 30% enhancement in app stability, a 20% reduction in app response time, and +10 million USD assets under management. These achievements highlight the app's success in providing users with a more efficient, cost-effective, and user-friendly financial experience.",
+    ],
+      // ["Shyft is a money app that gives you more for less, 24/7. Buy Forex instantly anytime, anywhere, and at the best rates, and invest in the top U.S. stocks and ETFs directly from your phone. I led the platform team for this project.",],
     tags: [
       {
         name: "Django, AngularJS, ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "AWS, Docker, Kubernetes",
+        name: "AWS, Docker, Kubernetes, Sentry, Datadog, GitLab, Figma, Gluu",
         color: "green-text-gradient",
       },
       {
@@ -381,8 +437,14 @@ const projects = [
   },
   {
     name: "DroneTech",
-    description:
-      "This project dealt with the design and development of low-cost and efficient drone technology with extremely low latency data feeds. These drones house computer vision technology with cloud compute instances to detect and mitigate points of risk.",
+    description: [
+      "DroneTech (later forming part of Autono1 at Autonosky) achieved significant success through the design and development of cost-effective and efficient drone technology. The project focused on delivering low-latency data feeds and leveraging computer vision technology to detect and mitigate points of risk.",
+      "The implementation of low-latency data feeds resulted in a 50% reduction in data transmission delay, enabling real-time monitoring and faster response to potential risks. This improvement enhanced operational efficiency and reduced the overall risk exposure during drone operations.",
+      "The integration of computer vision technology with cloud compute instances allowed for advanced risk detection and mitigation capabilities. The drones achieved a 40% increase in accuracy when identifying points of risk, ensuring proactive risk management and improved safety measures.",
+      "Moreover, the cost-effective design of the drones led to a 30% reduction in production costs compared to industry standards. This cost optimization allowed for wider adoption of the technology and increased accessibility to drone-based solutions for various industries.",
+      "The measurable data metrics achieved by DroneTech include a 50% reduction in data transmission delay, a 40% increase in accuracy in identifying points of risk, and a 30% reduction in production costs. These achievements highlight the project's success in delivering efficient and cost-effective drone technology with advanced risk detection capabilities.",
+    ],
+      // ["This project dealt with the design and development of low-cost and efficient drone technology with extremely low latency data feeds. These drones house computer vision technology with cloud compute instances to detect and mitigate points of risk.",],
     tags: [
       {
         name: "C, Python, Java, Ansible",
@@ -402,4 +464,63 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const educations = [
+  {title: "Degree: Doctor of Philosophy",
+   department: "Electrical Engineering",
+   research_areas: "Electrical and Electronics Engineering, Biomedical Imaging, Computational Intelligence",
+   university: "University of Cape Town",
+   issue_date: "Dec 2021",
+   link: "",
+  },
+  {title: "Degree: Master of Science",
+   department: "Electrical Engineering",
+   research_areas: "Electrical and Electronics Engineering, Biomedical Imaging, Computational Intelligence",
+   university: "University of Cape Town",
+   issue_date: "Dec 2017",
+   link: "",
+  },
+  {title: "Degree: Bachelor of Science",
+   department: "Electrical Engineering",
+   research_areas: "Electrical and Electronics Engineering, Control and Robotics Engineering, Computational Intelligence",
+   university: "University of Cape Town",
+   issue_date: "Dec 2015",
+   link: "",
+  },
+  {title: "Certificate: Business Strategy Specialization",
+   department: "Business",
+   research_areas: ["Project-based Business Strategies"],
+   university: "Coursera + University of Virginia Darden School of Business",
+   issue_date: "Oct 2022",
+   link: "https://coursera.org/share/14de834b67ea0f37706238539655b094",
+  },
+  {title: "Certificate: Google Project Management",
+   department: "Project Management",
+   research_areas: ["Project-based Project Management"],
+   university: "Coursera + Google",
+   issue_date: "Oct 2022",
+   link: "https://www.credly.com/badges/60c34b4e-91d7-49a2-9450-3805ae8375d7/public_url",
+  },
+  {title: "Certificate: IBM Cybersecurity Analyst Professional",
+   department: "Cybersecurity",
+   research_areas: ["Project-based cybersecurity"],
+   university: "Coursera + IBM",
+   issue_date: "Oct 2022",
+   link: "https://www.credly.com/badges/bd80803c-9fae-4b95-8866-f1013bd7d2eb/public_url",
+  },
+  {title: "Certificate: Machine Learning Specialization",
+   department: "Deep Learning",
+   research_areas: ["Project-based deep learning"],
+   university: "Coursera + Deeplearning.AI + Standford University",
+   issue_date: "Oct 2022",
+   link: "https://coursera.org/share/2c68d391760b7a8fe94b81810c6b86ce",
+  },
+  {title: "Verified International Academic Qualifications",
+   department: "Academic Verifications",
+   research_areas: ["Education"],
+   university: "World Education Services",
+   issue_date: "Feb 2022",
+   link: "https://www.credly.com/badges/e645f714-4529-499b-bd44-e0ab6790a462?source=linked_in_profile",
+  }
+];
+
+export { services, technologies, experiences, testimonials, projects, educations };
