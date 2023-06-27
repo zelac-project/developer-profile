@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        A highly skilled Software Engineer with over five years of
+        A highly skilled Software Engineer you over five years of
         experience in developing and delivering software solutions in a variety of industries.
         Proficient in multiple programming languages, platforms, and architectures.
         Experienced in leading teams, mentoring developers, and providing technical
